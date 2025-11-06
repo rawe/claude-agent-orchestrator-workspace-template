@@ -1,6 +1,6 @@
 ---
 name: orchestrated-agent-lister
-description: Use this agent to list all available orchestrated agents or you need to find a specialist orchestrated agent. This agent should be selected when the user asks to see what orchestrated agents exist or are configured.
+description: Use this agent to list all available orchestrated agents or you need to find a specialist orchestrated agent. This agent should be selected when the user asks to see what orchestrated agents exist or are configured. Always use this agent to retrieve the list of available orchestrated agents, if asked to launch a specialized agent, or if you need to find an appropriate orchestrated agent for a specific task.
 model: haiku
 color: blue
 ---
