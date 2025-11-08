@@ -5,3 +5,6 @@
 
 # agent session
 .agent-orchestrator/agent-sessions
+
+# research results
+researches/
