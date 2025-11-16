@@ -1,6 +1,6 @@
-# Agent Orchestration Framework - Example Project
+# Agent Orchestrator Workspace Template
 
-A working template project demonstrating the agent-orchestration framework with HTTP-mode MCP server integration.
+Template workspace for [claude-agent-orchestrator](https://github.com/rawe/claude-agent-orchestrator) with example agents and HTTP-mode MCP server integration.
 
 ## Prerequisites
 
