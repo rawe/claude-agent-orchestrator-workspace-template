@@ -1,30 +1,22 @@
-# Confluence Researcher Agent
+# Atlassian Agent
 
-This agent uses the **mcp-atlassian** MCP server for Confluence and Jira integration.
+General-purpose agent for interacting with Jira and Confluence. Suitable for tasks beyond research such as creating issues, updating pages, and managing content.
 
 **MCP Server:** [sooperset/mcp-atlassian](https://github.com/sooperset/mcp-atlassian)
 
-## Environment Variables
+## Setup
 
-This agent requires Atlassian credentials. Set these in `.claude/settings.local.json`:
+**Important:** This agent requires the mcp-atlassian server running in HTTP mode via Docker.
 
-```json
-{
-  "env": {
-    "CONFLUENCE_URL": "https://your-domain.atlassian.net",
-    "CONFLUENCE_USERNAME": "your-email@example.com",
-    "CONFLUENCE_API_TOKEN": "your-confluence-api-token"
-  }
-}
-```
+See [../../mcp/README.md](../../mcp/README.md) for complete setup instructions including:
+- Configuring Atlassian credentials in `.env`
+- Starting the centralized MCP server for all Atlassian agents
 
-## Required Variables
+## Capabilities
 
-- `CONFLUENCE_URL` - Your Confluence instance URL
-- `CONFLUENCE_USERNAME` - Your Confluence email
-- `CONFLUENCE_API_TOKEN` - Confluence API token (generate at atlassian.com)
-- `JIRA_URL` - Your Jira instance URL
-- `JIRA_USERNAME` - Your Jira email
-- `JIRA_API_TOKEN` - Jira API token (generate at atlassian.com)
-
-**Note:** The tokens can be the same if using a unified Atlassian account.
+This agent has full access to Atlassian tools and can:
+- Search and read Confluence pages
+- Create and update Confluence content
+- Search and read Jira issues
+- Create and update Jira issues
+- Manage both platforms as needed

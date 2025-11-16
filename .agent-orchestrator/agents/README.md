@@ -18,7 +18,7 @@ Research Confluence content using mcp-atlassian MCP server.
 ### [Jira Researcher](./jira-researcher/README.md)
 Research Jira issues and projects using mcp-atlassian MCP server.
 
-### Web Researcher
+### [Web Researcher](./web-researcher/README.md)
 Research information from the web (no MCP server required).
 
 ## General Agents
