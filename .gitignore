@@ -11,7 +11,6 @@ local-mcp-config/
 .agent-orchestrator/agent-sessions
 
 # research results
-researches/
 research-results/
 
 # envs
