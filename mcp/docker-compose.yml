@@ -1,0 +1,16 @@
+services:
+  mcp-atlassian:
+    image: ghcr.io/sooperset/mcp-atlassian:latest
+    container_name: mcp-atlassian-server
+    ports:
+      - "9000:9000"
+    env_file:
+      - .env
+    command: ["--transport", "streamable-http", "--port", "9000", "-vv"]
+    restart: unless-stopped
+    networks:
+      - mcp-network
+
+networks:
+  mcp-network:
+    driver: bridge

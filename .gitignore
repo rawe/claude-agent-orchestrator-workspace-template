@@ -3,9 +3,16 @@
 .AppleDouble
 .LSOverride
 
+#local test mcp configs
+local-mcp-config/
+
+
 # agent session
 .agent-orchestrator/agent-sessions
 
 # research results
 researches/
 research-results/
+
+# envs
+.env
