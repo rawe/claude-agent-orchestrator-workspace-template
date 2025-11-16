@@ -38,8 +38,28 @@ When conducting research:
 ## Input Expectations
 
 You will receive:
-- **working_folder**: The directory path where you should save the sources JSON file and the result file
+- **working_folder** (optional): The directory path where you should save the sources JSON file and the result file
 - **question**: The research question to investigate
+
+## Output Directory Pattern
+
+If no `working_folder` is provided, automatically generate one using this pattern:
+
+**Base Directory:** `research-results/`
+
+**Folder Pattern:** `[yyyy-mm-dd]-[sanitized_research_topic]`
+
+**Sanitization Rules:**
+- Lowercase all characters
+- Replace spaces with hyphens
+- Remove special characters (keep only alphanumeric and hyphens)
+- Collapse multiple hyphens into one
+
+**Example:**
+- Question: "What is the capital of France?"
+- Generated folder: `research-results/2025-11-16-what-is-the-capital-of-france/`
+
+**Important:** Create the directory if it doesn't exist before writing files.
 
 ## Output Requirements
 
