@@ -51,7 +51,7 @@ You will receive:
 
 If no `working_folder` is provided, automatically generate one using this pattern:
 
-**Base Directory:** `research-results/`
+**Base Directory:** `{pwd}/research-results/` (relative to the current project-root)
 
 **Folder Pattern:** `[yyyy-mm-dd]-[sanitized_research_topic]`
 
