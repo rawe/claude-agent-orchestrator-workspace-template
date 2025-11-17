@@ -6,12 +6,17 @@
 #local test mcp configs
 local-mcp-config/
 
-
 # agent session
 .agent-orchestrator/agent-sessions
 
 # research results
 research-results/
+
+# local repository information
+/repos/*
+!/repos/.gitkeep
+!/repos/repos.template.json
+!/repos/repos.schema.json
 
 # envs
 .env

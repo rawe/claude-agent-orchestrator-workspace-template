@@ -1,0 +1,4 @@
+{
+  "name": "local-repo-finder",
+  "description": "Specialist in querying available local repositories, filtering by repository name, customer/group, or project type. This is the source to get the project-dir for agents working in this repos afterwards."
+}

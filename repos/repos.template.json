@@ -1,0 +1,9 @@
+{
+  "repositories": [
+    {
+      "path": "/absolute/path/to/repository",
+      "name": "repository-name",
+      "group": "group-name"
+    }
+  ]
+}

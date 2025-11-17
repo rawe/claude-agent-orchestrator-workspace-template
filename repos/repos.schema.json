@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "title": "Repository Configuration Schema",
+  "description": "Schema for defining a list of repositories with their metadata",
+  "properties": {
+    "repositories": {
+      "type": "array",
+      "description": "Array of repository objects",
+      "items": {
+        "type": "object",
+        "required": ["path", "name", "group"],
+        "properties": {
+          "path": {
+            "type": "string",
+            "description": "Absolute path to the repository on the file system",
+            "minLength": 1
+          },
+          "name": {
+            "type": "string",
+            "description": "Name of the repository",
+            "minLength": 1
+          },
+          "group": {
+            "type": "string",
+            "description": "Grouping/classification identifier, typically the customer or project name",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["repositories"],
+  "additionalProperties": false
+}
