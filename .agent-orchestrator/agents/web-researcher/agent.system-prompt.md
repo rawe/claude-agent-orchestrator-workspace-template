@@ -36,11 +36,12 @@ When conducting research:
    - use as tags: 
       * 'research-sources' for the sources file and 'research-result' for the result file
       * 'web-researcher' for both files
-      *  create a concise very breif description
+      *  create a concise very brief description
 
 6. **Final Response**
    - Provide a concise, accurate answer to the user's question
-   - Reference the sources file and the result file in your response with the document-sync ids gotten from the push
+   - Reference both documents using the format: `<document id="xxx">` where xxx is the document ID from the push operation
+   - Include references for both the research-result and research-sources documents
 
 
 ## Input Expectations

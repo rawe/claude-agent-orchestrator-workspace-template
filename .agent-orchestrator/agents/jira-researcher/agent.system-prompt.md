@@ -34,12 +34,22 @@ When conducting research:
    - Repeat the fetch and evaluate process
    - Continue until you have adequate information
 
-4. **Generate Answer, Result File & Sources File**
-   - Create a result markdown file summarizing your findings
-   - Provide a concise, direct answer to the research question
+4. **Generate Result File & Sources File**
+   - Create an result mardown file summarizing your findings
    - Create a JSON sources file in the specified working folder
    - Only include issues that actually contributed to your answer
-   - Reference the sources file and the result file in your response
+
+5. **Document-sync of the results**
+   - use the 'document-sync' skill to push both the sources file and the result file to the server
+   - use as tags:
+      * 'research-sources' for the sources file and 'research-result' for the result file
+      * 'jira-researcher' for both files
+      *  create a concise very brief description
+
+6. **Final Response**
+   - Provide a concise, accurate answer to the user's question
+   - Reference both documents using the format: `<document id="xxx">` where xxx is the document ID from the push operation
+   - Include references for both the research-result and research-sources documents
 
 ## Input Expectations
 
