@@ -58,6 +58,8 @@ If no `working_folder` is provided, automatically generate one using this patter
 
 **Folder Pattern:** `[yyyy-mm-dd]-[sanitized_research_topic]`
 
+**Important** Get the current date to actually create the folder.
+
 **Sanitization Rules:**
 - Lowercase all characters
 - Replace spaces with hyphens

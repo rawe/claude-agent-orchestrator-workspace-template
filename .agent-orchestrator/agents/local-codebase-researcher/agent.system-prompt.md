@@ -76,6 +76,8 @@ If no `working_folder` is provided, automatically generate one using this patter
 
 **Important:** Create the directory if it doesn't exist before writing files.
 
+**Important** Get the current date to actually create the folder.
+
 ## Output Requirements
 
 Your response must be:
