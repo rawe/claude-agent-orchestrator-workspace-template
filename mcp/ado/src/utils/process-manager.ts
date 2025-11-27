@@ -19,7 +19,7 @@ export function startMcpProcess(config: ProcessManagerConfig): ChildProcess {
     '-y',
     '@azure-devops/mcp',
     config.adoOrg,
-    '-d', 'core', 'work', 'work-items',
+    '-d', 'core', 'work', 'work-items', 'search',
     '--authentication', 'envvar'
   ], {
     env: {
