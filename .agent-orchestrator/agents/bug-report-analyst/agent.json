@@ -1,0 +1,4 @@
+{
+  "name": "bug-report-analyst",
+  "description": "Evaluates bug reports from context store (tag: bug-report), assesses severity, groups by project/customer, and provides a concise triage overview. Input: none required (automatically queries context store for bug-report tagged documents)"
+}
